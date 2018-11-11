@@ -1,0 +1,13 @@
+title: Mind The Word
+
+description: >-
+  a chrome web extension
+baseurl: ""
+url: ""
+twitter_username: 
+github_username:  
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
