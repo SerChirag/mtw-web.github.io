@@ -8,8 +8,6 @@ nav:
     link: '#section-features'
   - name: stats
     link: '#section-stats'
-  - name: integration
-    link: '#section-integrations'
   - name: customers
     link: '#section-customers'
   - name: contact
@@ -157,16 +155,11 @@ section-contact:
     <h3 class="font-fjalla">{{ page.section-stats.title }}</h3>
     <p>{{ page.section-stats.description }}</p>
   </div>
-  {% for stats in page.section-stats.stats-list %}
-    <div class="stats__block">
-      <div class="flex--horizontal">
-        <h5 class="stats__name">{{ stats.name }}</h5>
-        <h4 class="font-fjalla stats__result">{{ stats.number }}</h4>
-      </div>
-      <div class="stats">
-        <canvas id="{{ stats.id }}" ></canvas>
-      </div>
-    </div>
+  <div style="margin:auto;">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/VgpQ48YHGXs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+
+
   {% endfor %}
 </section>
 <section class="section--customers js-section">
